@@ -1,0 +1,51 @@
+﻿/* Menú Vertical */
+body{	
+font-family: 'Roboto', sans-serif;
+}
+
+ul{
+ list-style: none;  /* quita el puntero de lista */
+ margin: 0;           /* se quita el espacio de la lista default */  
+ padding: 0;
+ width: 12em;	    /* ancho de mi caja */
+ line-height: 3em;  /* da espaciado entre líneas */
+ background: #E7D2D2;
+}
+
+li{
+background: #AFAFAC;	
+}
+
+ul li:first-child{
+ background:#F7B617;
+}
+
+ul li:first-child a{
+ color:#FFF;
+}
+
+ul li:first-child a:hover{
+ color:#FFF;
+}
+
+a{
+ display: block;   /* fuerzo al elemento en linea a ser bloque  */
+ text-decoration: none; /* quito subrayado */
+ color: #000;  /*color siempre propiedad texto */
+ padding-left: 10px;
+ }
+ 
+ a:hover{
+   background:  #5A5656;
+   color: #FFF;
+ }
+
+a:active{
+   color: #FFF;
+   background:#333;
+}
+
+ul li:first-child a:active{
+ color:#FFF;
+}
+

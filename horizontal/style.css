@@ -1,0 +1,53 @@
+/*Menu Horizontal*/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+ul{
+ list-style: none;
+  margin:0;
+  padding: 0;
+  padding-left: 4px;
+  line-height: 40px;
+ }
+
+ul li:first-child a{
+ color:#FFF;
+ background-color:#F7B617;  
+}
+
+li{
+ background: #CCC8C8;	
+ width: 100px;
+ float: left;
+ text-align: center;
+ }
+
+
+
+ ul li:hover{
+ color:#FFFFFF;
+ background-color: #825A5A; 
+}
+
+
+ ul li:first-child a:hover{
+ color:#FFF;
+ background-color: #4D4A4A; 
+}
+
+
+a{	
+ text-decoration: none;	
+ color: #000;
+ display:block;
+}
+
+a:active{
+   color: #FFF;
+   background:#333;
+}
+
+ul li:first-child a:active{
+ color:#FFF;
+}
